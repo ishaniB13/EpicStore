@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Monospace', 'sans-serif';
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    margin: 50px;
+    background: url("Images/a83002da3a3bdceac3f3226a4f1d1bdf.gif");
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    width: 1000vw;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    border-radius: 40px;
+    cursor: pointer;
+    flex: 20;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.panel.active {
+    flex: 60;
+}
+
+@media(max-width: 780px) {
+    .container {
+        width: 100vw;
+    }
+    .panel {
+        border-radius: 30;
+        bottom: 20px;
+        right: 30px;
+    }
+}
+
+h3 {
+    animation-duration: 2s;
+    animation-name: slidein;
+    background-color: #faebd7;
+    padding: 30px;
+    text-align: center;
+    opacity: 0;
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    animation-duration: 2s;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    animation: zoomInLeft;
+    animation-duration: 2s;
+    overflow: hidden;
+    white-space: nowrap;
+    width: max-content;
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+#welcome {
+    position: absolute;
+}

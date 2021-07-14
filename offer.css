@@ -1,0 +1,124 @@
+body {
+    background: url("Images/402010490_GOLD_CONFETTI_400px.gif");
+}
+
+.nav-bar {
+    background: url("Images/402010490_GOLD_CONFETTI_400px.gif");
+    display: relative;
+    padding: 20px 120px;
+    overflow: hidden;
+}
+
+.nav-links {
+    flex: 1;
+    margin-top: 10px;
+}
+
+.nav-links ul {
+    margin-left: 10px;
+    list-style: none;
+    display: inline;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px 15px;
+}
+
+.nav-links ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: rgb(255, 190, 190);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.offer {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    background: transparent;
+    top: 60px;
+}
+
+.details {
+    position: absolute;
+    height: 240px;
+    width: 44%;
+    padding: 90px 100px;
+    background: #ededed;
+    right: 30px;
+    top: 10px;
+    text-align: left;
+}
+
+.offer img {
+    height: 420px;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.offer h1 {
+    font-family: "roboto", sans-serif;
+    position: relative;
+    margin-top: -40px;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px 0px;
+    margin-top: -70px;
+}
+
+.offer h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.stars i#empty {
+    color: grey;
+}
+
+.price {
+    text-decoration: line-through;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff616d;
+}
+
+.btns {
+    background: transparent;
+}
+
+.add-btn {
+    position: absolute;
+    font-size: 30px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    margin-left: 1250px;
+}
+
+.pmain {
+    font-size: 40px;
+    color: #4aa96c;
+    font-weight: bolder;
+}
