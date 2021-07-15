@@ -18,32 +18,40 @@
     <!---Navbar-->
     <style>
         body {
-            background-image: url("Images/dribbleoutifts.gif");
+            background-image: url("Images/fashion.gif");
             background-size: cover;
         }
         
-        body a {
+        .crumb-text a {
             color: black;
             text-decoration: none;
+            display: inline-block;
         }
         
-        a:visited {
+        .crumb-text a:visited {
             color: rgb(255, 249, 250);
             background-color: transparent;
             text-decoration: none;
         }
         
-        a:hover {
-            color: black;
-            background-color: white;
-            text-decoration: underline 12px solid black;
-            font-weight: bold;
+        .crumb-text a::after {
+            content: '';
+            width: 0;
+            height: 2px;
+            background: white;
+            display: block;
+            margin: auto;
+            transition: 0.3s;
         }
         
-        a:active {
-            color: yellow;
+        .crumb-text a:hover::after {
+            width: 100%;
+        }
+        
+        .crumb-text a:active {
+            color: white;
             background-color: transparent;
-            text-decoration: underline;
+            text-decoration: none;
         }
     </style>
     <header class="main-menu menu">

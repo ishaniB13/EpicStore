@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background: url("Images/df392fb90619818047bf4f09e0adbc36.gif");
+    background: url("Images/electronics.gif");
     background-size: cover;
 }
 
@@ -249,7 +249,7 @@ li {
     background: black;
     font-size: 18px;
     font-weight: 700;
-    color: #1e1e1e;
+    color: #fff;
     transition: all .4s ease-in-out;
     text-transform: capitalize;
 }

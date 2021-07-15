@@ -1,9 +1,9 @@
 body {
-    background: url("Images/402010490_GOLD_CONFETTI_400px.gif");
+    background: url("Images/confetti.gif");
 }
 
 .nav-bar {
-    background: url("Images/402010490_GOLD_CONFETTI_400px.gif");
+    background: url("Images/confetti.gif");
     display: relative;
     padding: 20px 120px;
     overflow: hidden;
