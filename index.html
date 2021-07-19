@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="icon" href="logo.png">
+    <title>EpicStore</title>
+</head>
+
+<body>
+
+    <div class="title">
+
+        <div class="bar">
+            <h2>E P I C S T O R E</h2>
+
+
+            <a href="login.html"><button class="btn">Log In</button></a>
+
+        </div>
+
+    </div>
+
+    <div class="nav-bar">
+        <div class="nav-links">
+            <ul>
+                <a href="index.html">
+                    <li> HOME</li>
+                </a>
+                <a href="about.html">
+                    <li>ABOUT</li>
+                </a>
+                <a href="contact.html">
+                    <li>CONTACT</li>
+                </a>
+
+            </ul>
+            <input class="input" type="text" placeholder="Search..">
+
+        </div>
+
+
+
+
+
+
+        <div class="search">
+
+            <button id="sear"><i class="fas fa-search"></i></button>
+        </div>
+
+        <button class="add-btn"><i class="fas fa-cart-plus" id="cart"></i></button>
+
+
+
+    </div>
+
+
+    <div class="content">
+
+
+
+        <div class="container-fluid">
+            <div class="site-slider">
+                <div class="slider-one">
+                    <div><img src="Images/banner1.jpg" class="img-fluid" alt="banner 1"></div>
+                    <div><img src="Images/banner2.jpg" class="img-fluid" alt="banner 2"></div>
+                    <div><img src="Images/banner3.jpg" class="img-fluid" alt="banner 3"></div>
+                    <div><img src="Images/banner4.jpg" class="img-fluid" alt="banner 4"></div>
+
+
+                </div>
+                <div class="slider-btn">
+                    <span class="prev"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+
+        <h2>FEATURED PRODUCTS</h2>
+
+        <div class="container-fluid">
+            <div class="site-slider">
+                <div class="slider-two">
+                    <div><img src="Images/puma.jpg" class="img-fluid2" alt="banner 1">
+
+                        <div class="fdetails">
+                            <h3>Puma Sneakers</h3>
+                            <span class="fstars1">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star" id="empty"></i><br>
+                               <span class="fprice">₹9990</span><br>
+
+                            <button class="fcart-btn">Add to cart</button>
+
+                            </span>
+                        </div>
+
+                    </div>
+                    <div><img src="Images/fitbit.jpg" class="img-fluid2" alt="banner 2">
+
+                        <div class="fdetails">
+                            <h3>Fitbit Versa 2</h3>
+                            <span class="fstars1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" id="empty"></i><br>
+                                <span class="fprice">₹12300</span><br>
+
+                            <button class="fcart-btn">Add to cart</button>
+
+                            </span>
+                        </div>
+
+
+                    </div>
+                    <div><img src="Images/glove.jpg" class="img-fluid2" alt="banner 3">
+                        <div class="fdetails">
+                            <h3>Portneer Gym Gloves</h3>
+                            <span class="fstars1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><br>
+                                <span class="fprice">₹1230</span><br>
+
+                            <button class="fcart-btn">Add to cart</button>
+
+                            </span>
+                        </div>
+
+                    </div>
+                    <div><img src="Images/iphone11.jpg" class="img-fluid2" alt="banner 4">
+
+                        <div class="fdetails">
+                            <h3>iPhone 11</h3>
+                            <span class="fstars1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" id="empty"></i><br>
+                                <span class="fprice">₹79999</span><br>
+
+                            <button class="fcart-btn">Add to cart</button>
+
+                            </span>
+                        </div>
+
+
+                    </div>
+                    <div><img src="Images/airpods.jpg" class="img-fluid2" alt="banner 4">
+                        <div class="fdetails">
+                            <h3>AirPods Pro</h3>
+                            <span class="fstars1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><br>
+                                <span class="fprice">₹12300</span><br>
+
+                            <button class="fcart-btn">Add to cart</button>
+
+                            </span>
+                        </div>
+
+                    </div>
+                    <div><img src="Images/pavillion.jpg" class="img-fluid2" alt="banner 4">
+
+                        <div class="fdetails">
+                            <h3>HP Pavallion Gaming Laptop</h3>
+                            <span class="fstars1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" id="empty"></i><br>
+                                <span class="fprice">₹57300</span><br>
+
+                            <button class="fcart-btn">Add to cart</button>
+
+                            </span>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="slider-btn-two">
+                    <span class="prev2"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next2"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="offer">
+            <img src="Images/offer.jpg" alt="offer-img">
+            <div class="details">
+                <h1>OFFER</h1>
+                <h3>iMac Monitor</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit pariatur nobis sed totam, laboriosam id! Nisi labore id corrupti est magnam aut! Excepturi, facere trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum d</p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star" id="empty"></i>
+                </div>
+                <span class="price">₹130,000</span> <span class="pmain">₹89,000</span>
+
+                <div class="btns">
+                    <button class="cart-btn">Add to cart</button>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="site-slider-three" style="background-image: url(https://c0.wallpaperflare.com/preview/454/428/963/airpod-iphone-nespresso-gadget.jpg);">
+                <h1>What Our Client Say?</h1>
+
+                <div class="slider-three">
+
+                    <div class="reviews">
+                        <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam mollitia nisi beatae sunt placeat, dicta earum inventore doloribus tempora sapiente facere doloremque optio praesentium
+                            laborum corporis? Natus non quidem ea corporis a id quae, tempore, porro, ab at quasi animi? Illo facilis in, animi dolorem optio vitae ipsum doloribus? <i class="fas fa-quote-right"></i></p>
+                    </div>
+                    <div class="reviews">
+                        <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam mollitia nisi beatae sunt placeat, dicta earum inventore doloribus tempora sapiente facere doloremque optio praesentium
+                            laborum corporis? Natus non quidem ea corporis a id quae, tempore, porro, ab at quasi animi? Illo facilis in, animi dolorem optio vitae ipsum doloribus? <i class="fas fa-quote-right"></i></p>
+                    </div>
+                    <div class="reviews">
+                        <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam mollitia nisi beatae sunt placeat, dicta earum inventore doloribus tempora sapiente facere doloremque optio praesentium
+                            laborum corporis? Natus non quidem ea corporis a id quae, tempore, porro, ab at quasi animi? Illo facilis in, animi dolorem optio vitae ipsum doloribus? <i class="fas fa-quote-right"></i></p>
+                    </div>
+                    <div class="reviews">
+                        <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam mollitia nisi beatae sunt placeat, dicta earum inventore doloribus tempora sapiente facere doloremque optio praesentium
+                            laborum corporis? Natus non quidem ea corporis a id quae, tempore, porro, ab at quasi animi? Illo facilis in, animi dolorem optio vitae ipsum doloribus? <i class="fas fa-quote-right"></i></p>
+                    </div>
+                    <div class="reviews">
+                        <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam mollitia nisi beatae sunt placeat, dicta earum inventore doloribus tempora sapiente facere doloremque optio praesentium
+                            laborum corporis? Natus non quidem ea corporis a id quae, tempore, porro, ab at quasi animi? Illo facilis in, animi dolorem optio vitae ipsum doloribus? <i class="fas fa-quote-right"></i></p>
+                    </div>
+                    <div class="reviews">
+                        <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam mollitia nisi beatae sunt placeat, dicta earum inventore doloribus tempora sapiente facere doloremque optio praesentium
+                            laborum corporis? Natus non quidem ea corporis a id quae, tempore, porro, ab at quasi animi? Illo facilis in, animi dolorem optio vitae ipsum doloribus? <i class="fas fa-quote-right"></i></p>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="circle container">
+                <div class="circle">
+                    <button id="close"><i class="fas fa-times"></i></button>
+                    <button id="open"><i class="fas fa-bars"></i></button>
+
+                </div>
+            </div>
+
+            <ul>
+                <li><a class="cat" href="categories.html">Categories</a></li>
+                <li><a class="cat" href="offers.html">Offers</a></li>
+                <li><button class="cat">EpicStore+</button></li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <div class="footer">
+
+        <div class="footer-cont">
+            <div class="about">
+                <h1>EpicStore</h1>
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere eveniet itaque veritatis illo temporibus? Debitis, quas repellat! Temporibus accusantium vitae corporis inventore at deleniti distinctio quisquam iusto praesentium incidunt.
+                </P>
+
+                <i class="fas fa-phone" id="phone"></i> 9876543210 <br>
+                <i class="fas fa-envelope" id="mail"></i> gmail69@yahoo.com
+            </div>
+            <div class="links">
+                <h1>Quick Links</h1>
+                <ul>
+
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="">EpicStore+</a></li>
+                </ul>
+            </div>
+
+            <div class="socials">
+                <h1>Socials</h1>
+                <ul>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-instagram"></i></li><br>
+                    <li><i class="fab fa-google-plus-g"></i>
+                        <li><i class="fab fa-whatsapp"></i></li>
+                </ul>
+            </div>
+
+
+
+            <div class="location">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14743.80111567626!2d88.3
+                    289315!3d22.5060486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x55b5d8403d44c0a4!2sTurf%20XL!5
+                    e0!3m2!1sen!2sin!4v1626538435082!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            &copy; epicstore.com | By ib13 <i class="fas fa-graduation-cap"></i>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/af89771732.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>

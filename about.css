@@ -1,9 +1,10 @@
 body {
-    padding: 50px;
+    padding: 20px;
     margin-top: 10px;
     text-align: justify;
-    background: url("Images/about.jpg");
+    background: url("Images/about.gif");
     background-size: cover;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -16,6 +17,8 @@ h1 {
     width: 772ch;
     transform: translateY(-50%) scale(2);
     width: max-content;
+    background: rgba(236, 236, 236, 255);
+    border-radius: 3px;
     margin: 30px auto;
 }
 
@@ -38,8 +41,9 @@ h1 {
 }
 
 p {
-    margin-top: 50px;
-    background: white;
+    margin-top: 320px;
+    background: beige;
     color: #000;
     padding: 20px;
+    font-size: 16px;
 }
