@@ -44,3 +44,6 @@ $(".slider-three").slick({
     prevArrow: ".site-slider .slider-btn-three .prev3",
     nextArrow: ".site-slider .slider-btn-three .next3",
 })
+$(window).on('load', () => {
+    $(".loader-cont").fadeOut("slow")
+})
