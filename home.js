@@ -21,7 +21,7 @@ sear.addEventListener("click", () => {
 $(".slider-one").not(".slick-initialized").slick({
     dots: true,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 1300,
     prevArrow: ".site-slider .slider-btn .prev",
     nextArrow: ".site-slider .slider-btn .next",
 })
