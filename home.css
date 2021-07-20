@@ -472,6 +472,16 @@ button#close {
     cursor: pointer;
 }
 
+.search #carts {
+    color: white;
+    cursor: pointer;
+    top: 120px;
+    font-size: 30px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+}
+
 .search #sear:active {
     transform: scale(0.97);
 }
@@ -684,11 +694,11 @@ input::-webkit-input-placeholder {
 }
 
 .footer-cont .links ul li+li:hover::after {
-    width: 15%;
+    width: 12%;
 }
 
 .footer-cont .links ul li+li+li:hover::after {
-    width: 15%;
+    width: 22%;
 }
 
 .footer-cont .links ul li+li+li+li:hover::after {
@@ -697,7 +707,7 @@ input::-webkit-input-placeholder {
 
 .footer-cont .location {
     position: absolute;
-    margin-left: 1070px;
+    margin-left: 1170px;
     margin-top: 20px;
     width: 20%;
 }
@@ -747,21 +757,6 @@ input::-webkit-input-placeholder {
     background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
     cursor: pointer;
     border-radius: 10px;
-}
-
-.footer-cont .socials ul li i.fa-google-plus-g:hover {
-    background: #db4a39;
-    color: beige;
-    cursor: pointer;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-}
-
-.footer-cont .socials ul li i.fa-whatsapp:hover {
-    color: rgb(47, 194, 47);
-    cursor: pointer;
 }
 
 @media (max-width: 1300px) {
